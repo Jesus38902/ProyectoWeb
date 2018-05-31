@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="CSS/RegistroAlumnos.css">
+<title>Registros Alumnos</title>	
+</head>
+<body>
+      <div id="header">
+	      <form name="formRegistro" action="ValidaAlumno.php" method="post">
+		        <table border="0" align="center">
+				    <tr>
+					    <td class="centradoAzul" colspan="2">Registro Alumnos</td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Matricula:</td>
+						 <td class="valor">
+						    <input type="text" name="txtMatricula" maxlength="8" size="8"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Nombre:</td>
+						 <td class="valor">
+						    <input type="text" name="txtNombre" maxlength="50"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Apellido Paterno</td>
+						 <td class="valor">
+						    <input type="text" name="txtApePat" maxlength="50"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Apellido Materno</td>
+						 <td class="valor">
+						     <input type="text" name="txtApeMat" maxlength="50"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Telefono:</td>
+						 <td class="valor">
+						     <input type="text" name="txtTelefono" maxlength="15" size="15"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Direccion:</td>
+						 <td class="valor">
+						     <input type="text" name="txtDireccion" maxlength="150"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Codigo Postal:</td>
+						 <td class="valor">
+						    <input type="text" name="txtCP" maxlength="5" size="5"/>
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Sexo:</td>
+						 <td class="valor">
+						    <input type="radio" name="opSexo" value="HOMBRE" />Hombre 
+							<input type="radio" name="opSexo" value="MUJER"  />Mujer
+						 </td>
+					</tr>
+					<tr>
+					     <td class="descripcion">Carrera: </td>
+						 <td class="valor">
+						    <input type="text" name="txtCarrera"/>
+						 </td>
+					</tr>
+					<tr>
+					    <td class="centradoAzul" colspan="2">
+						    <input type="submit" name="btnRegistrar" value="Registrar Alumno"/>
+						</td>
+					</tr>
+				</table>
+		  </form>
+	  </div>
+</body>
+</html>

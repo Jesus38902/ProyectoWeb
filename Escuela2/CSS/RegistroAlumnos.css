@@ -1,0 +1,17 @@
+.centradoAzul{
+  font-family: verdana;
+  font-size: 15px;
+  text-align: center;
+  background-color: #66AEF6;
+  height: 40px;
+}
+
+.descripcion{
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.valor{
+  font-family: verdana;
+  font-size: 12px;
+}
